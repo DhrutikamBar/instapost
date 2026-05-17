@@ -19,7 +19,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
 
           script: |
-            cd ~/instapost
+            cd ~/instapost-react
 
             git pull origin main
 
